@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  jackson:
+    deserialization:
+      accept-float-as-int: false
+logging:
+  level:
+      org.springframework.web : debug
